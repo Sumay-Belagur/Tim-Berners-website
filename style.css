@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+}
+#image{
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;    
+}
+#welcome{
+    background: linear-gradient(#0cf5d9 0%, #0cf566 100%);
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    display: table;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 9;
+}
+h1{
+    font-family: monospace;
+    font-size: 40px;
+}
+#name{
+    font-family: 'Nerko One', cursive;
+    font-size: 40px;
+}
+h2{
+    font-family: monospace;
+    line-height: 2;
+}
+.welcomeClass{
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+#bio{
+    padding: 50px;
+    text-align: center;
+    font-size: 40px;
+    background-color: chartreuse;
+}
+.line{
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+p{
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 17px;
+    line-height: 1.2;
+    font-family: cursive;
+}
+.menu{
+ z-index: 10;
+    margin-left: 30px;
+    top: 10px;
+    position: absolute;
+    list-style: none;
+    cursor: pointer;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.links{
+    float: left;
+    color: darkorange;
+    padding-top: 5px;
+     padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    display: inline;
+}
+.links:hover{
+    background-color: chartreuse;
+}
+a{
+    text-decoration: none;
+    color: orange;
+}
