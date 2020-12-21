@@ -61,21 +61,22 @@ p{
 }
 .menu{
  z-index: 10;
-    margin-left: 30px;
-    top: 10px;
-    position: absolute;
+    top: 0px;
+    position: fixed;
     list-style: none;
     cursor: pointer;
     font-family: 'Josefin Sans', sans-serif;
+    width: 100%;
+    background-color: white;
+    margin-top: 0px;
 }
 .links{
     float: left;
     color: darkorange;
-    padding-top: 5px;
-     padding-left: 9px;
-    padding-right: 9px;
-    padding-bottom: 5px;
+     padding-left: 20px;
+    padding-right: 20px;
     display: inline;
+    margin-left: 110px;
 }
 .links:hover{
     background-color: chartreuse;
@@ -83,4 +84,12 @@ p{
 a{
     text-decoration: none;
     color: orange;
+    text-shadow: 2px 2px gainsboro;
+}
+#writings{
+    text-decoration: underline;
+    text-shadow: none
+}
+.gmail{
+    display: inline;
 }
